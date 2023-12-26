@@ -1,0 +1,11 @@
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Core\bin\Debug\net6.0\UdemyTask.Core.deps.json
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Core\bin\Debug\net6.0\UdemyTask.Core.dll
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Core\bin\Debug\net6.0\UdemyTask.Core.pdb
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Core\obj\Debug\net6.0\UdemyTask.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Core\obj\Debug\net6.0\UdemyTask.Core.AssemblyInfoInputs.cache
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Core\obj\Debug\net6.0\UdemyTask.Core.AssemblyInfo.cs
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Core\obj\Debug\net6.0\UdemyTask.Core.csproj.CoreCompileInputs.cache
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Core\obj\Debug\net6.0\UdemyTask.Core.dll
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Core\obj\Debug\net6.0\refint\UdemyTask.Core.dll
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Core\obj\Debug\net6.0\UdemyTask.Core.pdb
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Core\obj\Debug\net6.0\ref\UdemyTask.Core.dll

@@ -1,0 +1,17 @@
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Business\bin\Debug\net6.0\UdemyTask.Business.deps.json
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Business\bin\Debug\net6.0\UdemyTask.Business.dll
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Business\bin\Debug\net6.0\UdemyTask.Business.pdb
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Business\bin\Debug\net6.0\UdemyTask.Core.dll
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Business\bin\Debug\net6.0\UdemyTask.DAL.dll
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Business\bin\Debug\net6.0\UdemyTask.DAL.pdb
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Business\bin\Debug\net6.0\UdemyTask.Core.pdb
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Business\obj\Debug\net6.0\UdemyTask.Business.csproj.AssemblyReference.cache
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Business\obj\Debug\net6.0\UdemyTask.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Business\obj\Debug\net6.0\UdemyTask.Business.AssemblyInfoInputs.cache
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Business\obj\Debug\net6.0\UdemyTask.Business.AssemblyInfo.cs
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Business\obj\Debug\net6.0\UdemyTask.Business.csproj.CoreCompileInputs.cache
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Business\obj\Debug\net6.0\UdemyTask.Business.csproj.CopyComplete
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Business\obj\Debug\net6.0\UdemyTask.Business.dll
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Business\obj\Debug\net6.0\refint\UdemyTask.Business.dll
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Business\obj\Debug\net6.0\UdemyTask.Business.pdb
+C:\Users\owner\source\repos\UdemyTaskAPI\UdemyTask.Business\obj\Debug\net6.0\ref\UdemyTask.Business.dll
