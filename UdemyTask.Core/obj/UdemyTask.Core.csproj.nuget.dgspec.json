@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\owner\\source\\repos\\UdemyTaskAPI\\UdemyTask.Core\\UdemyTask.Core.csproj": {}
+    "C:\\Users\\owner\\Desktop\\UdemyAPI\\UdemyTask.Core\\UdemyTask.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\owner\\source\\repos\\UdemyTaskAPI\\UdemyTask.Core\\UdemyTask.Core.csproj": {
+    "C:\\Users\\owner\\Desktop\\UdemyAPI\\UdemyTask.Core\\UdemyTask.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\owner\\source\\repos\\UdemyTaskAPI\\UdemyTask.Core\\UdemyTask.Core.csproj",
+        "projectUniqueName": "C:\\Users\\owner\\Desktop\\UdemyAPI\\UdemyTask.Core\\UdemyTask.Core.csproj",
         "projectName": "UdemyTask.Core",
-        "projectPath": "C:\\Users\\owner\\source\\repos\\UdemyTaskAPI\\UdemyTask.Core\\UdemyTask.Core.csproj",
+        "projectPath": "C:\\Users\\owner\\Desktop\\UdemyAPI\\UdemyTask.Core\\UdemyTask.Core.csproj",
         "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\owner\\source\\repos\\UdemyTaskAPI\\UdemyTask.Core\\obj\\",
+        "outputPath": "C:\\Users\\owner\\Desktop\\UdemyAPI\\UdemyTask.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,7 +1,9 @@
 
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using UdemyTask.Business.Services.Implementations;
 using UdemyTask.Business.Services.Interfaces;
+using UdemyTask.Core.Entities;
 using UdemyTask.DAL.Context;
 using UdemyTask.DAL.Repositories.Implementations;
 
@@ -17,10 +19,21 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddDbContext<AppDbContext>(opt =>
 {
     opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
+builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+{
+    opt.Password.RequiredLength = 8;
+    opt.Password.RequireNonAlphanumeric = true;
+    opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(10);
+    opt.Lockout.MaxFailedAccessAttempts = 3;
+    opt.User.RequireUniqueEmail = true;
+    opt.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789._+";
+}).AddEntityFrameworkStores<AppDbContext>()
+.AddDefaultTokenProviders();
 
 var app = builder.Build();
 
