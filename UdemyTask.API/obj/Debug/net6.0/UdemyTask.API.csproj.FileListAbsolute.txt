@@ -151,3 +151,7 @@ C:\Users\owner\Desktop\UdemyAPI\UdemyTask.API\obj\Debug\net6.0\refint\UdemyTask.
 C:\Users\owner\Desktop\UdemyAPI\UdemyTask.API\obj\Debug\net6.0\UdemyTask.API.pdb
 C:\Users\owner\Desktop\UdemyAPI\UdemyTask.API\obj\Debug\net6.0\UdemyTask.API.genruntimeconfig.cache
 C:\Users\owner\Desktop\UdemyAPI\UdemyTask.API\obj\Debug\net6.0\ref\UdemyTask.API.dll
+C:\Users\owner\Desktop\UdemyAPI\UdemyTask.API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\owner\Desktop\UdemyAPI\UdemyTask.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\owner\Desktop\UdemyAPI\UdemyTask.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\owner\Desktop\UdemyAPI\UdemyTask.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

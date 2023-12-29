@@ -15,11 +15,17 @@ namespace UdemyTask.API.Controllers
         {
             _service = service;
         }
-        [HttpPost]
+        [HttpPost("[action]")]
         public async Task<IActionResult> Register([FromForm] RegisterDto accountDto)
         {
             await _service.Register(accountDto);
             return Ok(new { Message = "User registered successfully" });
+        }
+        [HttpPost("[action]")]
+        public async Task<IActionResult> Login([FromForm] LoginDto logindto)
+        {
+            var result = await _service.Login(logindto);
+            return Ok(result);
         }
     }
 }
