@@ -14,11 +14,11 @@ namespace UdemyTask.Business.DTOs.AccountDtos
         public string Username { get; set; }
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
-        [DataType(DataType.Password)]
-        [MinLength(8)]
+        //[DataType(DataType.Password)]
+        //[MinLength(8)]
         public string Password { get; set; }
-        [DataType(DataType.Password), Compare(nameof(Password))]
-        [MinLength(8)]
+        //[DataType(DataType.Password), Compare(nameof(Password))]
+        //[MinLength(8)]
         public string ConfirmPassword { get; set; }
     }
 }

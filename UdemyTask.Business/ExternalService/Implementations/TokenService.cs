@@ -30,7 +30,8 @@ namespace UdemyTask.Business.ExternalService.Implementations
                 new Claim(ClaimTypes.NameIdentifier , user.Id),
                 new Claim(ClaimTypes.GivenName , user.Name)
             };
-            SymmetricSecurityKey securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt: SigninKey"]));
+           Console.WriteLine(_configuration["Jwt:SigninKey"]);
+            SymmetricSecurityKey securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:SigninKey"]));
             SigningCredentials credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
             // 5 dene ctor u var
             JwtSecurityToken jwtSecurity = new JwtSecurityToken(
